@@ -1,22 +1,116 @@
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fite Me Bundle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #fff6f9;
+      --accent: #ff8aa1;
+      --text: #2b2b2b;
+      --highlight: #ffc8dd;
+    }
 
-<div style="
-  background-color: #ffe0eb;
-  color: #2b2b2b;
-  padding: 0.75rem 1.5rem;
-  border-radius: 2rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  border: 2px dashed #ff8aa1;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  font-size: 1rem;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-">
-  💌 Ships from my bedroom with ✨ love and mild chaos ✨
-</div>
+    body {
+      margin: 0;
+      font-family: 'Fredoka', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
 
+    header {
+      background-color: var(--highlight);
+      padding: 1rem 2rem;
+      border-radius: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .banner {
+      background-color: #ffe0eb;
+      color: #2b2b2b;
+      padding: 0.75rem 1.5rem;
+      border-radius: 2rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      border: 2px dashed #ff8aa1;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      font-size: 1rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .product {
+      background: white;
+      border: 2px solid var(--accent);
+      border-radius: 1rem;
+      padding: 1rem;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin: 1rem;
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .buy-button {
+      margin-top: 1rem;
+      background-color: var(--accent);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .buy-button:hover {
+      background-color: #ff6e8b;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fite Me Merch Bundle</h1>
+    <p class="tagline">Get the full angry-duck experience — sticker + keychain 🔪✨</p>
+  </header>
+
+  <div class="banner">
+    💌 Ships from my bedroom with ✨ love and mild chaos ✨
+  </div>
 
   <section class="product">
     <img src="YOUR-BUNDLE-IMAGE.png" alt="Fite Me Duck Bundle" />
