@@ -31,16 +31,40 @@
       cursor: pointer;
       text-decoration: none;
       display: inline-block;
+      animation: sparkle 1.5s infinite;
     }
     .pay-button:hover {
       background-color: #ff6e8b;
     }
+    @keyframes sparkle {
+      0%, 100% { box-shadow: 0 0 5px #ff8aa1; }
+      50% { box-shadow: 0 0 15px #ff8aa1; }
+    }
+    .info {
+      font-size: 0.95rem;
+      max-width: 500px;
+      margin: 0 auto 2rem auto;
+      background: #ffe0eb;
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 2px dashed #ff8aa1;
+    }
   </style>
+  <script>
+    setTimeout(() => {
+      window.location.href = "YOUR-KOFI-OR-GUMROAD-LINK";
+    }, 7000);
+  </script>
 </head>
 <body>
   <h1>You're one step away 🐥🔪</h1>
   <p>Click the button below to complete your order for the <strong>Fite Me Bundle</strong>!</p>
   <a class="pay-button" href="YOUR-KOFI-OR-GUMROAD-LINK" target="_blank">Proceed to Payment</a>
+
+  <div class="info">
+    <p><strong>Note:</strong> Orders typically ship within 3-5 business days. All packages come with sparkles, good vibes, and emotional support energy ✨📦💖</p>
+    <p>If you have any issues, DM us on Instagram @crykeyco.</p>
+    <p><em>You will be redirected shortly...</em></p>
+  </div>
 </body>
 </html>
-
